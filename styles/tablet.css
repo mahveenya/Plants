@@ -1,0 +1,241 @@
+@media (max-width: 1340px) {
+  :root {
+    --content_width: 668px;
+    --fs_tablet_base: 16px;
+    --fs_tablet_small: 20px;
+    --fs_tablet_mid: 25px;
+    --fs_tablet_big: 35px;
+    --fs_tablet_biggest: 40px;
+    --lh_tablet_base: 20px;
+    --lh_tablet_smallest: 25px;
+    --lh_tablet_small: 30px;
+    --lh_tablet_mid: 35px;
+    --lh_tablet_big: 45px;
+    --lh_tablet_bigest: 50px;
+  }
+
+  .nav {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .welcome {
+    align-items: flex-start;
+    padding-top: 38px;
+    padding-bottom: 70px;
+  }
+
+  .welcome_leafs {
+    width: 280px;
+    height: 255px;
+
+    order: 1;
+    align-self: flex-start;
+  }
+
+  .welcome_header_text {
+    margin-bottom: 30px;
+
+    font-size: var(--fs_tablet_big);
+  }
+
+  .welcome_text {
+    margin-right: 70px;
+    margin-left: 5px;
+
+    font-size: var(--fs_tablet_base);
+    line-height: var(--lh_tablet_smallest);
+  }
+
+  .welcome_btn {
+    margin-top: 35px;
+  }
+
+  .about {
+    align-items: flex-start;
+  }
+
+  .about .container_content {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+
+  .container_about_text {
+    justify-content: flex-start;
+    width: var(--content_width);
+    margin-bottom: 68px;
+  }
+
+  .about_text_header {
+    margin-bottom: 50px;
+    font-size: var(--fs_tablet_big);
+    line-height: var(--lh_tablet_big);
+    text-align: center;
+  }
+
+  .about_text {
+    font-size: var(--fs_tablet_small);
+    line-height: var(--lh_tablet_small);
+  }
+
+  .about_img {
+    width: 250px;
+    height: 260px;
+  }
+
+  .container_service_text_and_btns {
+    justify-content: flex-start;
+    row-gap: 40px;
+    margin-bottom: 39px;
+  }
+
+  .service_text {
+    margin-right: 360px;
+    font-size: var(--fs_tablet_big);
+    line-height: var(--lh_tablet_big);
+  }
+
+  .container_service_btns {
+    margin-bottom: 0;
+  }
+
+  section.service .container_content {
+    margin-top: 60px;
+    margin-bottom: 70px;
+  }
+
+  .container_service_figures {
+    gap: 38px 106px;
+  }
+
+  .figure_1 {
+    width: 280px;
+    height: 350px;
+    background-image: url("../assets/img/garden_tablet_1.png");
+    border-radius: 20px 20px 0 0;
+  }
+
+  .figure_2 {
+    width: 280px;
+    height: 350px;
+    background-image: url("../assets/img/planting_tablet_2.png");
+    border-radius: 20px 20px 0 0;
+  }
+
+  .figure_3 {
+    width: 280px;
+    height: 350px;
+    background-image: url("../assets/img/lawn_tablet_3.png");
+    border-radius: 20px 20px 0 0;
+  }
+
+  .figure_4 {
+    width: 280px;
+    height: 350px;
+    background-image: url("../assets/img/planting_tablet_4.png");
+    border-radius: 20px 20px 0 0;
+  }
+
+  .figure_5 {
+    width: 280px;
+    height: 350px;
+    background-image: url("../assets/img/garden_tablet_5.png");
+    border-radius: 20px 20px 0 0;
+  }
+
+  .figure_6 {
+    width: 280px;
+    height: 350px;
+    background-image: url("../assets/img/planting_tablet_6.png");
+    border-radius: 20px 20px 0 0;
+  }
+
+  .figcaption {
+    width: 280px;
+  }
+
+  .figcaption_heading {
+    font-size: var(--fs_tablet_small);
+  }
+
+  .figcaption_text {
+    width: 201px;
+    text-align: center;
+  }
+
+  section.prices .container_content {
+    margin-top: 40px;
+    margin-bottom: 87px;
+    align-items: flex-start;
+  }
+
+  .prices_text_btn_leafs {
+    margin-top: 100px;
+
+    width: 295px;
+  }
+
+  .prices_plans_header {
+    margin-bottom: 60px;
+    margin-left: 15px;
+
+    font-size: var(--fs_tablet_big);
+  }
+
+  .prices_text {
+    height: 75px;
+    margin-bottom: 23px;
+    font-size: var(--fs_tablet_mid);
+    line-height: var(--lh_tablet_mid);
+  }
+
+  section.contact_us .container_content {
+    padding-top: 43px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_us_text {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 100px;
+
+    order: -2;
+    font-size: var(--fs_tablet_biggest);
+  }
+
+  .contact_us_dropdown {
+    margin-top: 0;
+    margin-bottom: 252px;
+    order: -1;
+  }
+
+  .contact_us_img {
+    width: 200px;
+    height: 248px;
+    background-image: url("../assets/img/contact_us_woman_tablet.png");
+    margin-left: 20px;
+  }
+
+  .footer_list {
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 33px;
+    margin-bottom: 18px;
+
+    width: 210px;
+
+    line-height: var(--lh_tablet_smallest);
+
+    row-gap: 16px;
+  }
+
+  .footer_list_item:nth-child(3) {
+    margin: 0;
+  }
+
+  .footer_list_item:nth-child(4) {
+    margin-bottom: 7px;
+  }
+}

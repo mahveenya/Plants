@@ -1,0 +1,317 @@
+@media (max-width: 718px) {
+  :root {
+    --content_width: 330px;
+    --fs_mobile_min: 10px;
+    --fs_mobile_base: 15px;
+    --fs_tablet_base: 16px;
+    --fs_mobile_small: 20px;
+    --fs_mobile_mid: 25px;
+    --fs_mobile_big: 35px;
+    --fs_mobile_biggest: 40px;
+    --lh_mobile_base: 20px;
+    --lh_mobile_smallest: 25px;
+    --lh_mobile_small: 30px;
+    --lh_mobile_mid: 35px;
+    --lh_mobile_big: 45px;
+    --lh_mobile_bigest: 50px;
+    --weight_400: 400;
+    --weight_700: 700;
+  }
+
+  .welcome_leafs,
+  .prices_leafs {
+    display: none;
+  }
+
+  .nav_list {
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    right: 10px;
+    top: 70px;
+  }
+
+  .nav_item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: white;
+    border-radius: 20px;
+    transform: translateY(-1000%);
+    transition: 0.4s cubic-bezier(0.6, 0.55, 0.49, 1.01);
+  }
+
+  .nav_item:hover {
+    background-color: var(--orange);
+  }
+
+  .nav_link:hover {
+    font-weight: 400;
+    color: white;
+  }
+
+  .active {
+    transform: translateY(0);
+  }
+
+  .nav_item:nth-child(1n + 1) {
+    margin-top: 0.5rem;
+  }
+
+  .nav_link {
+    margin-left: 0;
+    line-height: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .nav_toggle {
+    position: absolute;
+    right: 1.5rem;
+    top: 2.15rem;
+    padding: 1rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .hamburger {
+    display: block;
+    position: relative;
+  }
+
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    width: 2rem;
+    height: 2px;
+    background: #717171;
+  }
+
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+  }
+
+  .hamburger::before { bottom: 6px;}
+  .hamburger::after { top: 6px;}
+
+  .nav {
+    padding-top: 36px;
+    padding-bottom: 39px;
+  }
+
+  .container_welcome_text_and_btn {
+    width: 100%;
+  }
+
+  .welcome_header_text {
+    margin-bottom: 20px;
+    font-size: var(--fs_mobile_mid);
+    line-height: var(--lh_mobile_mid);
+  }
+
+  .welcome_text {
+    font-size: var(--fs_tablet_base);
+    line-height: var(--lh_mobile_smallest);
+    margin: 0;
+  }
+
+  .welcome_btn {
+    width: 100px;
+    height: 34px;
+    margin-top: 25px;
+    font-size: var(--fs_mobile_min);
+  }
+
+  .welcome {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .about .container_content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .about_text_header {
+    margin-bottom: 16px;
+    font-size: var(--fs_mobile_mid);
+    font-weight: var(--weight_400);
+    line-height: 2rem;
+  }
+
+  .container_about_text {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+  .about_text {
+    font-size: var(--fs_mobile_base);
+    line-height: var(--lh_mobile_smallest);
+  }
+
+  .about_img {
+    width: 150px;
+    height: 147px;
+  }
+
+  .container_service_btns {
+    flex-wrap: wrap;
+  }
+
+  section.prices .container_content {
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .container_service_text_and_btns {
+    row-gap: 0;
+  }
+
+  section.service .container_content {
+    margin-top: 30px;
+    margin-bottom: 27px;
+  }
+
+  .service_text {
+    width: 180px;
+    height: 70px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-right: 90px;
+    margin-bottom: 35px;
+  }
+
+  .service_btn:nth-child(3) {
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+
+  .service_btn:nth-child(4) {
+    margin-top: 9px;
+  }
+
+  .service_btn {
+    width: 121px;
+    height: 35px;
+    font-size: var(--fs_mobile_base);
+    line-height: var(--lh_mobile_base);
+  }
+
+  .container_service_figures {
+    column-gap: 0;
+    row-gap: 34px;
+    justify-content: center;
+  }
+
+  .prices_plans {
+    align-items: center;
+    align-self: center;
+  }
+
+  .prices_plans_header {
+    margin-left: 7px;
+    margin-bottom: 37px;
+    font-size: var(--fs_mobile_mid);
+    line-height: var(--lh_mobile_small);
+  }
+
+  .container_prices_plans_division {
+    width: 224px;
+  }
+
+  .prices__dropdowns {
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+
+  .dropdowns__dropdown {
+    padding-left: 33px;
+
+    width: 180px;
+
+    row-gap: 4px;
+    column-gap: 23px;
+  }
+
+  .dropdown__subscription-price {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .dropdown__subscription-cta {
+    padding: 0;
+    text-align: center;
+    width: 55px;
+    height: 20px;
+
+    font-size: 12px;
+  }
+
+  .prices_btn_text {
+    font-size: var(--fs_mobile_base);
+
+  }
+
+  .dropdowns__dropdown:nth-child(2){
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .prices_text_btn_leafs {
+    align-self: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .prices_text {
+    width: 230px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: var(--fs_mobile_small);
+    line-height: var(--lh_mobile_mid);
+  }
+
+  .prices_contact_us_btn {
+    align-self: center;
+    width: 121px;
+    height: 35px;
+    font-size: var(--fs_mobile_base);
+  }
+
+  .contact_us_text {
+    font-size: var(--fs_mobile_mid);
+    line-height: 2rem;
+    margin-bottom: 83px;
+  }
+  section.contact_us .container_content {
+    padding-top: 25px;
+  }
+
+  .contact_us_dropdown {
+    width: 300px;
+    height: 50px;
+    padding-right: 20px;
+    margin-bottom: 132px;
+  }
+
+  .contact_us_img {
+    width: 100px;
+    height: 124px;
+    background-image: url("../assets/img/contact_us_woman_mobile.png");
+    margin-left: 0;
+  }
+
+  .footer_list {
+    row-gap: 13px;
+    margin-top: 23px;
+  }
+
+  .footer_list_item:nth-child(4) {
+    margin-bottom: 0;
+  }
+}
